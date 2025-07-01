@@ -24,8 +24,7 @@ footer a:hover {
     justify-content: space-between;
     align-items: flex-start;
     padding: 40px;
-    margin-bottom: 8%;
-    height: 30vh;
+    margin-bottom: 4%;
   }
   
   .left {
@@ -62,9 +61,9 @@ footer a:hover {
   }
   
   nav a {
-    color: #ccc;
+    color: #c1c1c1;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     letter-spacing: 0.05em;
     transition: color 0.2s;
   }
@@ -189,47 +188,35 @@ a:hover img {
   filter: brightness(75%);
 }
 
-@media screen and (max-width: 768px) {
-  /* Example mobile adjustments */
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    height: auto;
   }
 
-  nav {
-    align-items: center;
+  .left {
     text-align: center;
   }
 
   .left h1, .left h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
+    gap: 1em;
+    margin-top: 20px;
   }
 
-  .two-page-layout,
-  .two-page-layout2 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .page-content, .page-content2 {
-    width: 90%;
-  }
-
-  .artwork, .artwork2, .singlephoto {
-    width: 100%;
-  }
-
-  .textbox, .textbox2 {
+  nav a {
     font-size: 1rem;
-    width: 95%;
-    padding: 0;
-  }
-
-  footer {
-    margin-left: 0;
-    text-align: center;
   }
 }
