@@ -63,7 +63,7 @@ footer a:hover {
   nav a {
     color: #c1c1c1;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     letter-spacing: 0.05em;
     transition: color 0.2s;
   }
@@ -219,4 +219,9 @@ a:hover img {
   nav a {
     font-size: 1rem;
   }
+  .artwork {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
