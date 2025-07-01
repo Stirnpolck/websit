@@ -85,8 +85,9 @@ footer a:hover {
 }
 
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 page-break {
@@ -186,4 +187,49 @@ a img {
 
 a:hover img {
   filter: brightness(75%);
+}
+
+@media screen and (max-width: 768px) {
+  /* Example mobile adjustments */
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+  }
+
+  nav {
+    align-items: center;
+    text-align: center;
+  }
+
+  .left h1, .left h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .two-page-layout,
+  .two-page-layout2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .page-content, .page-content2 {
+    width: 90%;
+  }
+
+  .artwork, .artwork2, .singlephoto {
+    width: 100%;
+  }
+
+  .textbox, .textbox2 {
+    font-size: 1rem;
+    width: 95%;
+    padding: 0;
+  }
+
+  footer {
+    margin-left: 0;
+    text-align: center;
+  }
 }
