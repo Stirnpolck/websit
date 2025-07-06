@@ -89,11 +89,11 @@ footer a:hover {
   line-height: 60%;
   margin-bottom: 10%;
 }
-.artwork4 {
-  width: 70%;
+.artworkk {
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  line-height: 60%;
+  line-height: 20%;
   margin-bottom: 10%;
 }
 
@@ -203,6 +203,7 @@ a:hover img {
   filter: brightness(75%);
 }
 
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -240,3 +241,4 @@ a:hover img {
     margin-right: auto;
 }
 }
+
