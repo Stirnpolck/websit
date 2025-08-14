@@ -241,4 +241,14 @@ a:hover img {
     margin-right: auto;
 }
 }
+@media (max-width: 768px) {
+  .two-page-layout {
+    flex-direction: column; /* stack the images vertically */
+    align-items: center; /* center them */
+  }
 
+  .page-content {
+    width: 90%; /* one image takes up 90% of the view */
+    padding-bottom: 5vh; /* adjust spacing between images */
+  }
+}
