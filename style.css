@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +12,17 @@ body {
   color: white;
   text-decoration: none;
 }
+
+
+h5 {
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center; /* Center the text */
+}
+
 
 footer a:hover {
   text-decoration: underline; /* Optional: underline on hover */
@@ -209,6 +219,81 @@ a:hover img {
   filter: brightness(75%);
 }
 
+
+/* Add blur effect to specific images */
+img[src="./pg12.jpg"],
+img[src="./pg13.jpg"],
+img[src="./pg14.jpg"],
+img[src="./pg15.jpg"],
+img[src="./pg16.jpg"],
+img[src="./pg17.jpg"],
+img[src="./pg18.jpg"],
+img[src="./pg19.jpg"],
+img[src="./pg20.jpg"],
+img[src="./pg21.jpg"],
+img[src="./pg22.jpg"],
+img[src="./pg23.jpg"],
+img[src="./pg24.jpg"],
+img[src="./pg25.jpg"],
+img[src="./pg26.jpg"],
+img[src="./pg27.jpg"],
+img[src="./pg28.jpg"],
+img[src="./pg29.jpg"],
+img[src="./pg30.jpg"],
+img[src="./pg31.jpg"],
+img[src="./pg32.jpg"],
+img[src="./pg33.jpg"],
+img[src="./pg34.jpg"],
+img[src="./pg35.jpg"],
+img[src="./pg36.jpg"],
+img[src="./pg37.jpg"],
+img[src="./pg38.jpg"],
+img[src="./pg39.jpg"],
+img[src="./pg40.jpg"],
+img[src="./pg41.jpg"],
+img[src="./pg42.jpg"],
+img[src="./pg43.jpg"],
+img[src="./pg44.jpg"],
+img[src="./pg45.jpg"],
+img[src="./pg46.jpg"],
+img[src="./pg47.jpg"],
+img[src="./pg48.jpg"],
+img[src="./pg49.jpg"],
+img[src="./pg50.jpg"],
+img[src="./pg51.jpg"],
+img[src="./pg52.jpg"],
+img[src="./pg53.jpg"],
+img[src="./pg54.jpg"],
+img[src="./pg55.jpg"],
+img[src="./pg56.jpg"],
+img[src="./pg57.jpg"],
+img[src="./pg58.jpg"],
+img[src="./pg59.jpg"],
+img[src="./pg60.jpg"],
+img[src="./pg61.jpg"],
+img[src="./pg62.jpg"],
+img[src="./pg63.jpg"],
+img[src="./pg64.jpg"],
+img[src="./pg65.jpg"],
+img[src="./pg66.jpg"],
+img[src="./pg67.jpg"],
+img[src="./pg68.jpg"],
+img[src="./pg69.jpg"],
+img[src="./pg70.jpg"],
+img[src="./pg71.jpg"],
+img[src="./pg72.jpg"],
+img[src="./pg73.jpg"],
+img[src="./pg74.jpg"],
+img[src="./pg75.jpg"],
+img[src="./pg76.jpg"],
+img[src="./pg77.jpg"],
+img[src="./pg78.jpg"],
+img[src="./pg79.jpg"],
+img[src="./pg80.jpg"],
+img[src="./pg81.jpg"],
+img[src="./pg83.jpg"] {
+  filter: blur(20px); /* Adjust the blur radius as needed */
+}
 
 @media (max-width: 768px) {
   header {
