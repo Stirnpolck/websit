@@ -171,6 +171,14 @@ page-break {
     margin-left: auto;
     margin-right: auto;
 }
+.photo-page-layout {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
 
 .page-content {
     width: 48%; /* Each page takes up about half the width */
